@@ -1,4 +1,4 @@
-const express = require("express");
+gconst express = require("express");
 const path = require("path");
 const fs = require("fs");
 const app = express();
@@ -16,7 +16,7 @@ app.set("views", path.join(__dirname, "views")); // set the views directory
 app.get("/", (req, res) => {
     const con = "This is the best content on the internet so far so good";
     const params = {
-        title: "COD is the best game",
+        title: "apex gym",
         content: con,
     };
     res.status(200).render("index.pug", params); //connecting the file over here
